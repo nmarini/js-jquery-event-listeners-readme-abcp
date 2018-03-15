@@ -21,6 +21,8 @@ function pressIt() {
     if(key.which == )
   })
 }
+
+
 $(document).ready(function(){
 
 // call functions here
