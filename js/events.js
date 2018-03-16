@@ -17,11 +17,13 @@ function submitIt() {
 }
 
 function pressIt() {
-  $(`input`).on(`keydown`, function(key) {
-    if(key.which == 71)
+  $('#typing').on('keydown', function(e) {
+    // 'g' corresponds to 71
+    if (e.which === 71) {
+      alert("You pressed 'g'!")
+    }
   })
 }
-
 
 $(document).ready(function(){
 
