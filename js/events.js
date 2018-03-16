@@ -18,7 +18,6 @@ function submitIt() {
 
 function pressIt() {
   $('#typing').on('keydown', function(e) {
-    // 'g' corresponds to 71
     if (e.which === 71) {
       alert("You pressed 'g'!")
     }
